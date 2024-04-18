@@ -6,16 +6,16 @@
  clear: right;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-size: 40px;
-  font-family:'Cochin', cursive;
+  font-family: '', cursive;
   font-weight: bold;
   margin:auto
 }
 
 body {
   font-family:'Cambria';
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   color: black;
   background-color:rgb(177, 255, 184);
@@ -30,7 +30,7 @@ p{
   unicode-bidi: isolate;
 }
 
-#content {
+.major-section {
   border: solid 1px rgb(41, 41, 41);
   padding-left: 20px;
   padding-right: 20px;
@@ -38,21 +38,23 @@ p{
   width: 95%;
   margin: 20px;
   margin-bottom: 5px;
-  background-color:rgb(232, 255, 243)
+  background-color: rgb(232, 255, 243);
 }
 
-.side-by-side {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-}
-
-.photo {
-  flex-basis: 50%;
+.assignments-section {
+  border: solid 1px rgb(41, 41, 41);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 95%;
+  margin: 20px;
+  margin-bottom: 5px;
+  background-color: rgb(232, 255, 243);
 }
 
 .photo img {
-  width: 100%;
+  width: 200px;
+
 }
 
 img {
@@ -64,5 +66,5 @@ img {
 
 li {
   display: list-item;
-  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
 }
