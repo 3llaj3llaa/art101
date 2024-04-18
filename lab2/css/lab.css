@@ -1,34 +1,28 @@
 
+body {
+  background-color: #50808E;
+}
+
+h1,h2,h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: #84B59F;
+}
+
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #e53eff;
-}
-  h1 {
-    color:#ff5cfc;
-    font-size: 200%;
-    margin-top: -300px;
-    text-indent: 30px;
-  }
-
-  p {
-    font-family: fantasy;
-    text-indent:20px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-#content {
-    background-color:rgb(255, 216, 237);
-    width: 500px;
-    min-height: 300px;
-    padding: 10px;
-    margin: 10px;
-    border: dotted 5px #444;
-    font-size: 20px;
-}
-
-img {
-  width: 200px;
-  margin-left: 30px;
+  background-color: #A3C9A8;
 }
