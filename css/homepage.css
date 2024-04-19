@@ -53,8 +53,19 @@ p{
 }
 
 .photo img {
-  width: 200px;
+  width: 250px;
+  flex-basis: 50%;
+}
 
+ol {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+  flex-basis: 50%;
 }
 
 img {
@@ -62,9 +73,8 @@ img {
   overflow: clip;
 }
 
-
-
-li {
-  display: list-item;
-  unicode-bidi: isolate;
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
