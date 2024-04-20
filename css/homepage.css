@@ -17,7 +17,7 @@
    font-size: 18px;
    line-height: 1.5;
    color: black;
-   background-color:rgb(177, 255, 184);
+   background-color:rgb(248, 188, 255);
  }
  
  p{
@@ -37,7 +37,7 @@
    width: 95%;
    margin: 20px;
    margin-bottom: 5px;
-   background-color: rgb(232, 255, 243);
+   background-color: rgb(253, 220, 255);
  }
  
  .assignments-section {
@@ -48,7 +48,7 @@
    width: 95%;
    margin: 20px;
    margin-bottom: 5px;
-   background-color: rgb(232, 255, 243);
+   background-color: rgb(253, 220, 255);
  }
  
  .photo img {
