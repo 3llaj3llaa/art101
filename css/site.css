@@ -35,3 +35,7 @@ h1 {
   border: solid 1px #888;
   background-color: #f5bedf;
 }
+
+#miata {
+  width: 300px;
+}
