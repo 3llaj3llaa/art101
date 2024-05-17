@@ -20,3 +20,14 @@ $("#submit").click(function(){
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
+$("#empty-output").click(function(){
+  //empty the output div
+  $("#output").empty();
+});
+
+//freeze the page
+$("#infinite-loop").click(function(){
+  while(true) {
+    //freeze it
+  }
+});
