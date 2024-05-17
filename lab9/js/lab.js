@@ -1,6 +1,6 @@
 // index.js - Lab 9 - Libraries and jQuery - it makes some buttons to modify elements on the page
 // Author: Ella Ruiz <etruiz@ucsc.edu>
-// jQuery must be loaded for this script to work
+// Requirements: jQuery must be loaded for this script to work
 // Date: 5/11/2024
 
 //add button to challenge section
