@@ -17,10 +17,15 @@ function generateRandomText (){
 
 //click listener for button
 $("#make-convo").click(function(){
-//get new fake dialogue
-const newText = generateRandomText ();
-//append a new div to our output div
-$("#output").append('<div class="text"><p>' + newText + '</p></div>');
+  //Get text from input field
+  const userInput = $("#user-input").val();
+  //If input field is not empty, use user input, otherwise generate random text
+  const newText = userInput.trim() !== "" ? userInput : generateRandomText();
+  //Apend new div to our output div with correct class for alternating left/right alignment
+  const alignmentClass = $("#output").children().length % 2 === 0 ? "left" : "right";
+  $("#output").append('<div class = "text ' + alignmentClass + '"><p>' + newText + "</p></div>");
+  //Clear user input field
+  $("#user-input").val("");
 });
 
 

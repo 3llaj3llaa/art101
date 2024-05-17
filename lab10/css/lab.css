@@ -7,3 +7,29 @@
     border: solid 1px #888;
     background-color: #ffd0f5;
   }
+
+  .text {
+    margin-bottom: 10px;
+  }
+
+  .text.left {
+    text-align: left;
+  }
+
+  .text.right {
+    text-align: right;
+  }
+
+  .text.left p {
+    background-color: #e1ffc7;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .text.right p {
+    background-color: #c7d7ff;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+  }
