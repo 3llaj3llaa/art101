@@ -7,3 +7,19 @@
     border: solid 1px #888;
     background-color: #ffd0f5;
   }
+
+  .error {
+    color: red;
+    font-weight: bold;
+  
+  }
+
+#output {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+#output p {
+  margin: 0;
+}
