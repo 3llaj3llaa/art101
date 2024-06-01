@@ -39,6 +39,7 @@ function outputToPage(str) {
 function fizzBuzzBoom(maxNums, factorObj) {
   // Iterate over all of our numbers
   for (var num = 0; num <= maxNums; num++) {
+    debugger;
     // Resets output string
     var outputStr = "";
     // Iterate over the factors we got from the HTML

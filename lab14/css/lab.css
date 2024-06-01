@@ -1,0 +1,25 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #ffd0f5;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+  
+  }
+
+#output {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+#output p {
+  margin: 0;
+}
